@@ -1,0 +1,163 @@
+/*科学研究.css*/
+html {*overflow: auto;}
+.container2{
+	margin: 0 auto;
+	width: 1000px;
+	top: 40px;
+}
+h5{
+	font-weight:normal;
+	color: #5b5b5b;
+	line-height: 30px;
+}
+.catalog{
+	/*border: medium double rgb(250,0,12);*/
+    position: relative;
+    height: 100px;
+    width: 150px;
+    top:30px;
+    /*background-color: #f0f0f0;*/
+    /*background-color: #fff;*/
+    margin-left: 10px;
+    float:left; 
+    display:inline
+}
+.catalog ul li{
+	/*background-color: #ffb5b5;*/
+	background-color: #FFD9EC;
+	border-right: 2px double #FF5151;
+	height: 30px;
+	list-style:none;
+	margin-top: 10px;
+	text-align: center;
+
+}
+.catalog a{
+	text-decoration: none;
+	color: #ce0000;
+	font-weight: bold;
+	/*font-family: "黑体";*/
+	font-size: 17px;
+}
+.catalog a:hover{
+	color:#fff;
+}
+.research{
+	position: relative;
+    /*height: 420px;*/
+    width: 800px;
+    /*width: 200px;*/
+    top:10px;
+    /*background-color: #fff;*/
+    /*background-color: #fcfcfc;*/
+    background-color:#fff;
+    margin-left:20px;
+    float:left; 
+    display:inline;
+}
+img{
+	width: 20px;
+	height: 20px;
+	/*margin-top: 10px;*/
+}
+.research_item{
+	/*margin-top: 10px;*/
+	line-height:20px;
+	/*float: right;*/
+}
+.research_item ul li{
+	list-style:none;
+	padding-top: 20px;
+	/*margin-left: 20px;
+	margin-top: 10px;*/
+}
+.research_item a{
+	font-weight:bold;
+	font-style:normal;
+	color: #000;
+	text-decoration: none;
+}
+.research_item a:hover{
+	color:#ff5151;
+}
+.research_item a:active{
+	color:#e800e8;
+}
+.pic_left{
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding-right: 20px;
+}
+.content_right{
+	width: 600px;
+	height: 100px;
+	/*text-align: center;*/
+	display: table-cell;
+	vertical-align: middle;
+	/*background-color: #f0f0f0;*/
+	
+}
+.thsis{
+	margin-top: 30px;
+	
+}
+.thsis ul li{
+	list-style:circle;
+	margin-left: 40px;
+}
+.footer{
+	width: 1000px;
+	height: 100px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 0;
+	color: #9d9d9d;
+	font-size: 15px;
+	line-height: 20px;
+	/*padding-left: 100px;*/
+	background-color: #f0f0f0;
+	clear:both; 
+    position: relative;
+    left: 0px;
+    top: 300px;
+}
+.pro{
+	width: 700px;
+	height: 2300px;
+	margin-left: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top: 1px solid #9d9d9d;
+
+	/*line-height: 40px;*/
+}
+.pro ul li{
+	text-decoration: circle;
+}
+.ths{
+	width: 730px;
+	height: 300px;
+	/*text-align: center;*/
+	/*background-color: #ddffff;*/
+	margin-left: 40px;
+	border: 1px solid #8e8e8e;
+}
+.ths ul li{
+	list-style:circle;
+	font-weight: bold;
+	font-size: 14px;
+}
+#more4{
+	float: right;
+	font-family:Arial;
+	word-wrap:break-word;
+}
+#more4 a{
+	font-size:15px;
+	color:#adadad;
+	text-decoration: none;
+}
+#more4 a:hover{
+	color:#999;
+}

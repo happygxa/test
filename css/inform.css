@@ -1,0 +1,208 @@
+*{
+			padding:0;
+			margin: 0;
+		}
+	/*通用*/
+    ul, li, a, em, i {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+/*    a, a:link {
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+*/
+
+    html, body {
+        overflow-x: hidden;
+    }
+  /*  主部件*/
+		header{
+			height: 140px;
+			/*border: 2px solid dodgerblue;*/
+			margin: 0 auto;
+		}
+		#main-in{
+/*			  border: 1px solid black;*/			
+          max-width:960px;
+        	margin:0 auto;
+       	 	padding-left:0;
+        	padding-right:0;
+		}
+     .footer{
+            width: 1000px;
+            height: 100px;
+            margin:0 auto;
+            text-align: center;
+            padding-top: 0;
+            color: #9d9d9d;
+            font-size: 15px;
+            line-height: 20px;
+            /*padding-left: 100px;*/
+            background-color: #f0f0f0;
+            margin-left: 170px;
+
+    }
+
+/*inform-list信息列表*/
+		#main-in .inform-list{
+/*		border: 1px solid black;
+*/		  margin-top:10px;
+		  margin-left:20px;
+          padding-bottom:40px;
+          min-height:700px;
+       
+		}
+		#main-in .inform-list ul li{
+			 overflow:hidden;
+       		 margin-top:35px;
+       		 margin-left:10px;
+		}
+		#main-in .inform-list ul li .inform-t{
+/*			border: 1px solid black;
+*/			background:#f4f4f4;
+       		 width:70px;
+        	height:70px;
+        	float:left;
+     
+        /*	overflow:hidden;*/
+		}
+    #main-in .inform-list ul li .inform-th{
+/*      border: 1px solid black;
+*/      background:#f4f4f4;
+        display:none; 
+           width:70px;
+          height:70px;
+          float:left;
+     
+        /*  overflow:hidden;*/
+    }
+		#main-in .inform-list ul li .inform-a{
+/*			border: 1px solid black;
+*/			/*background:#F4F4F4;*/
+       		margin-left:63px;
+       		padding-left:15px;
+       		margin-right:10px;
+        	height:130px;
+        	/*max-width:700px;*/
+			/*float:left;*/
+			/*clear: both;*/
+		}
+		#main-in .inform-list ul li .inform-t span{
+/*			border: 1px solid yellow;
+*/			 color:#999999;
+        	font-size:30px;
+        	display:block;
+        	width: 56px; 
+        	text-align:center;
+		}
+      #main-in .inform-list ul li .inform-th span{
+/*      border: 1px solid yellow;
+*/       color:#999999;
+          font-size:24px;
+          display:block;
+          width: 56px; 
+          text-align:center;
+          margin-top:17px;
+    }
+		#main-in .inform-list ul li .inform-t em{
+		/*	border: 1px solid yellow;*/
+			color:#666666;
+        	font-size:21px;
+        	display:block;
+        	width: 56px; 
+        	text-align:center;
+        	/*text-align:right;*/
+        	 color:#99cccc;
+        	 font-size: 26px;
+		}
+
+    #main-in .inform-list ul li .inform-a a{ 
+         /* border: 1px solid yellow;*/
+    text-decoration-line: none;
+    font-size:22px;
+      overflow: hidden;
+    }
+
+
+#main-in .inform-list ul li .inform-a a:hover{
+  color:#ff5151;
+}
+
+
+#main-in .inform-list ul li .inform-a a:active{
+  color:#e800e8;
+}
+
+		#main-in .inform-list ul li .inform-a p{
+/*			border: 1px solid yellow;
+*/			margin-right:10px;
+			color: #666666;
+			display: inline-block;
+       	 	font-size: 17px;
+        	margin-top: 6px;
+        	height: 72px;
+        /*	margin-bottom: 3px;*/
+        	overflow: hidden;
+          margin-bottom: 6px;
+		}
+		#main-in .inform-list ul li .inform-a hr{
+				margin-top: 2px;
+				width:99%;
+				border-top: 1px solid #dcdcdc;
+		}
+/*inform-article信息*/
+  #main-in .inform-article{
+    /*border: 1px solid black;*/
+      margin-top:10px;
+      margin-left:20px;
+          padding-bottom:40px;
+          min-height:700px;
+       
+    }
+
+  #main-in .inform-article h1{
+    color:#033a67;
+    font-size:23px;
+    margin-top:50px;
+    text-align: center;
+}
+
+#main-in .inform-article h2{
+    color:#027abe;
+    font-size:25px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+#main-in .inform-article .pro-detail-line{
+    height:1px; 
+    border-top:2px solid #ECEDEC;
+    margin-top:20px;
+}
+
+#main-in .inform-article .pro-detail-tit span{
+    color:#333333;
+}
+
+
+#main-in .inform-article .pro-detail-tit {
+    overflow:hidden;
+    margin-top:20px;
+    text-align: center;
+}
+#main-in .inform-article .pro-detail-text img{
+    padding-left:70px;
+    padding-bottom:10px;
+    width: 700px;
+    height:450px; 
+}
+
+#main-in .inform-article .pro-detail-text{
+    margin-top:10px;
+    min-height:500px;
+     /*border: 1px solid black;*/
+    padding: 20px;
+}

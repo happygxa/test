@@ -1,0 +1,166 @@
+*{
+			padding:0;
+			margin: 0;
+		}
+	/*通用*/
+    ul, li, a, em, i {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a,a:link,a:hover {
+        text-decoration: none;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+  /* 主部件*/
+header{
+			height: 140px;
+			/*border: 2px solid dodgerblue;*/
+			margin: 0 auto;
+		}
+
+		#main-ph{
+/*			border: 1px solid orange;
+*/			max-width:960px;
+        	margin:0 auto;
+       	 	padding-left:0;
+        	padding-right:0;
+		}
+
+		/*Footer*/
+		.footer{
+			width: 1000px;
+			height: 100px;
+			margin:0 auto;
+			text-align: center;
+			padding-top: 0;
+			color: #9d9d9d;
+			font-size: 15px;
+			line-height: 20px;
+		/*padding-left: 100px;*/
+			background-color: #f0f0f0;
+			margin-left: 170px;
+
+		}
+
+/*photo-list图片列表*/
+		#main-ph .photo-list{
+			/*border: 1px solid pink;*/
+		  margin-top:35px;
+		  margin-left:15px;
+          padding-bottom:40px;
+          min-height:700px;
+       
+		}
+		#main-ph .photo-list ul .bli{
+			/*border:1px solid red;*/
+			 overflow:hidden;
+       		 margin-top:10px;
+       		 margin-left:5px;
+		}
+		#main-ph .photo-list ul li .photo-t{
+/*			border: 1px solid blue;
+*/			background:#f4f4f4;
+       		 width:62px;
+        	height:70px;
+        	float:left;
+        	margin-top:10px;
+        /*	overflow:hidden;*/
+		}
+		#main-ph .photo-list ul li .photo-th{
+			/*border: 1px solid blue;*/
+			background:#f4f4f4;
+            display:none; 
+       		 width:60px;
+        	height:70px;
+        	float:left;
+        	margin-top:10px;
+
+        /*	overflow:hidden;*/
+		}
+		
+		#main-ph .photo-list ul li .photo-t span{
+			/*border: 1px solid yellow;*/
+			 color:#999999;
+        	font-size:24px;
+        	display:block;
+        	width: 56px; 
+        	text-align:center;
+
+		}
+		#main-ph .photo-list ul li .photo-th span{
+			/*border: 1px solid yellow;*/
+			 color:#999999;
+        	font-size:24px;
+        	display:block;
+        	width: 56px; 
+        	text-align:center;
+        	margin-top:17px;
+		}
+		#main-ph .photo-list ul li .photo-t em{
+			/*border: 1px solid yellow;*/
+			color:#666666;
+        	font-size:18px;
+        	display:block;
+        	width: 56px; 
+        	text-align:center;
+        	/*text-align:right;*/
+        	 color:#99cccc;
+        	 font-size: 26px;
+		}
+
+		#main-ph .photo-list ul li .photo-p{
+			background: #f4f4f4;
+/*			border: 1px solid black;
+*/			margin-top: 10px;
+       		margin-left:66px;
+       		margin-right: 5px;
+        	min-height:100px;
+        	/*max-width:700px;*/
+			/*float:left;*/
+			/*clear: both;*/
+		}
+		.phbox{
+		overflow:hidden;
+		margin:3px;
+		margin-bottom: 15px;
+       /* border:1px solid green;*/
+		}
+		.phbox li{
+/*		border:1px solid red;
+*/       overflow:hidden;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        float:left;
+        width:282px;
+    	height:210px;
+    }
+		#main-ph .photo-list ul li .photo-p img{
+    		width:276px;
+    		height:205px;
+    		margin-top: 1px;
+    		margin-left: 1px;
+    		border-bottom: 1px solid #dcdcdc;
+    		/*margin: 0 auto;*/
+		}
+
+		hr{
+		/*width:60%;*/
+		border-top: 1px solid #dcdcdc;
+		}*/
+
+
+/*图片放大	*/	
+#content{ width:500px; height:170px; margin:100px auto;}
+#imgbox-loading {position: absolute;top: 0;left: 0;	cursor: pointer;display: none;z-index: 90;}
+#imgbox-loading div {background: #FFF;width: 100%;height : 100%;}
+#imgbox-overlay {position: absolute;top: 0;	left: 0;width: 100%;height: 100%;background: #000;display: none;z-index: 80;}
+.imgbox-wrap {position: absolute;top: 0;left: 0;background: #FFF;display: none;	z-index: 90;}
+.imgbox-img {padding: 0;margin: 0;border: none;width: 100%;	height: 100%;vertical-align: top;}
+.imgbox-title {	padding-top: 10px;font-size: 11px;text-align: center;font-family: Arial;color: #333;display: none;}
+.imgbox-bg-wrap {position: absolute;padding: 0;margin: 0;display: none;}
+.imgbox-bg {position: absolute;width: 20px;	height: 20px;}

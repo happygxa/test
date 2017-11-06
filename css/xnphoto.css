@@ -1,0 +1,64 @@
+.photh-main{
+		margin:15px;
+		margin-left:auto; 
+		margin-right:auto; 
+		text-align:left;
+		float:left;
+		clear:right;
+		overflow:hidden;
+}
+.sy-container{
+		margin:0 auto;
+		width:68%;
+		text-align:center;
+		
+		}
+.sy-cell{
+		margin:0 auto;
+		padding:20px;
+		height: 400px;
+		float:left;
+		}
+.team-container{
+		margin:0 auto;
+		
+		
+		
+		}
+.preload-img{
+		
+		border:10px ridge #CCCCCC;
+		
+		}
+.team-desc{
+		width:180px;
+		
+		
+		}
+.team-author{
+		margin:0 auto;
+		
+		
+		}
+.team-author-name{
+		font-family:ËÎÌו;
+		font-size:20px;
+		
+		
+		
+		}
+.team-content{
+		margin:0 auto;
+		font-family:ËÎÌו;
+		font-size:16px;
+		
+		
+		}
+.soc-ico{
+		
+		
+		
+		}
+
+
+

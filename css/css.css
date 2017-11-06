@@ -1,0 +1,79 @@
+
+/*css.css*/
+body{		
+	font:12px Tahoma; 
+	margin:0px;
+	text-align:center;
+	background:#fff;
+	}
+/*页面样式*/
+.webpage{width:100%; 
+	clear:top;
+	}
+/*页面头部样式*/
+.head{width:100%;
+	margin:0 auto;
+	height:140px;
+	background:#ffffff;
+	}
+/*页面主体样式*/
+/*主题内容*/
+.main{
+	
+	margin:15px;
+	margin-left:auto; 
+	margin-right:auto; 
+	width:1300px;
+	text-align:left;
+	float:left;
+	clear:right;
+	overflow:hidden;
+	align:center;
+	}
+/*左边样式*/
+.left{
+ 	
+	margin:0;
+	margin-left:170px; 
+	width:250px;
+	height:100%;
+	float:left;
+	}
+
+/*右边样式*/
+.right{
+ 
+	margin:0px;
+	padding:20px;
+	width:650px;
+	height:100%;
+	float:left;
+	}
+.map{
+	margin: 50px auto;
+	width: 1300px;
+	height: 300px;
+	float: left;
+	margin-left: 170px;
+	}
+
+/*页面底部样式*/
+.footer{
+	width: 1000px;
+	height: 100px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 0;
+	color: #9d9d9d;
+	font-size: 15px;
+	line-height: 20px;
+	/*padding-bottom: 100px;*/
+	background-color: #f0f0f0;
+	margin-left: 170px;
+	float: left;
+}
+.p1{
+
+	text-indent: 2em;
+	font-size:large;
+	}

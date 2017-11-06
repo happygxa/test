@@ -1,0 +1,141 @@
+*{
+			padding:0;
+			margin: 0;
+		}
+	/*通用*/
+    ul, li, a, em, i {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a, a:hover, a:link {
+        text-decoration: none;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+  /*  其他*/
+		header{
+			height: 140px;
+			/*border: 2px solid dodgerblue;*/
+			margin: 0 auto;
+		}
+
+		#main-stu{
+/*			border: 1px solid black;
+*/			max-width:960px;
+        	margin:0 auto;
+       	 	padding-left:0;
+        	padding-right:0;
+        	min-height: 900px;
+		}
+     .footer{
+            width: 1000px;
+            height: 100px;
+            margin:0 auto;
+            text-align: center;
+            padding-top: 0;
+            color: #9d9d9d;
+            font-size: 15px;
+            line-height: 20px;
+            /*padding-left: 100px;*/
+            background-color: #f0f0f0;
+            margin-left: 170px;
+
+    }
+
+/*student-list列表内容*/
+		#main-stu .stu-list{
+/*		border: 2px solid green;
+*/		  margin-top:10px;
+		  margin-left:10px;
+          padding-bottom:40px;
+		}
+
+		.chuangxin{
+			 border-bottom:1px solid #cccccc;
+			 margin-top:10px;
+			 margin-left: 15px;
+			 margin-right: 20px;
+			  margin-bottom: 2px;
+		}
+		.chuangye{
+			 border-bottom:1px solid #cccccc;
+			 margin-top:10px;
+			 margin-left: 15px;
+			 margin-right: 20px;
+			   margin-bottom: 2px;
+		}
+		.chuangxin h2{
+		background:url("../photo/decorate/fengge.png") no-repeat 3px center;
+/*  		border:2px solid  red;
+*/			padding-left:20px;
+    		color:#333333;
+    		font-size:20px;
+    		font-weight:bold;
+    		margin-top:25px;
+		}
+		.chuangye h2{
+		background:url("../photo/decorate/fengge.png") no-repeat 3px center;
+/*		border:2px solid  red;
+*/			padding-left:20px;
+    		color:#333333;
+    		font-size:20px;
+    		font-weight:bold;
+    		margin-top:25px;
+		}
+		#main-stu ul{
+/*		    border: 2px solid orange;
+*/			overflow:hidden;
+    		padding-bottom:20px;
+    		margin-top:10px;
+			margin-left: 10px;
+		}
+		#main-stu ul li{
+/*			border:1px solid red;
+*/			 overflow:hidden;
+       		 margin-top:10px;
+       		 margin-left:15px;
+       		 float:left;
+		}
+		.stu-list-s{
+			font-size:18px;
+   			font-weight: bold;
+    		color:#033a67;
+    		display:block;
+		}
+		.stu-list-d{
+			overflow:hidden;
+    		margin-top:30px;
+    		height:110px;
+		}
+		.stu-list-d img{
+			float:left;
+    		width:120px;
+    		height:100px;
+		}
+		.stu-list-d span{
+			float: left;
+    		width:310px;
+    		margin-left:10px;
+    		color:#666666;
+		}
+		 .more{
+    		margin-left:390px;
+    		display:inline-block;
+    		color:#015180;
+    		font-size:18px;
+    		font-weight: bold;
+    		line-height:33px;
+		}
+		.stu-list-line{
+    		border-top:1px solid #c9c9c9;
+    		height:1px;
+		}
+		.stu-list-shotline{
+    		border-top:2px solid #c9c9c9;
+    		height:1px;
+    		width:380px;
+		}
